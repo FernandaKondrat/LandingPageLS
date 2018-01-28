@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>I INSIDE Fábrica de Aplicativos</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="logoFappUni9.ico" type="image/x-icon" />
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Fábrica de Aplicativos</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fa fa-bars"></i>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#services">Apresentação</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">Evento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#team">Palestrantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"></div>
+                <div class="intro-heading"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">SAIBA MAIS</a>
+            </div>
+        </div>
+    </header>
+    <section class="bg-light" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Bem-vindos</h2>
+                    <h3 class="section-subheading text-muted">I INSIDE FÁBRICA DE APLICATIVOS na Universidade Nove de Julho – UNINOVE. </h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                    <h4 class="service-heading">Quem Somos ?</h4>
+                    <p class="text-muted">O nome do evento se dá ao fato de termos dentro da instituição um projeto para construção de aplicativos
+                        - <a href="http://www.fabricaappu9.com.br/" target="_blank">Conheça mais</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                        </span>
+                    <h4 class="service-heading">O Evento</h4>
+                    <p class="text-muted">Aqui nós vamos abordar diversas tecnologias emergentes como Big Data, Cloud Computing e Inteligência
+                        Artificial.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                    <h4 class="service-heading">Para quem ?</h4>
+                    <p class="text-muted">Alunos concluintes do curso de Tecnologia em Análise e Desenvolvimento de Sistemas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">O Evento</h2>
+                    <h3 class="section-subheading text-muted">Acontecerá no dia 18/11, das 8:00 às 12:00, em três Campi simultaneamente – Memorial, Vila Prudente e
+                        Santo Amaro.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a id="memorial" style="margin-bottom:10px; width: 222px; color:white; cursor:pointer" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+                        onclick="timeLineMemorial()">Memorial</a>
+                    <a id="vilaPrudente" style="margin-bottom:10px; width: 222px; color:white; cursor:pointer" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+                        onclick="timeLineVP()">Vila Prudente</a>
+                    <a id="santoAmaro" style="margin-bottom:10px; width: 222px; color:white; cursor:pointer" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+                        onclick="timeLineSantoAmaro()">Santo Amaro</a>
+                </div>
+            </div>
+            <div class="row" style="margin-top:50px;" id="timeLineMemorial">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/1.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>8:00</h4>
+                                    <h4 class="subheading">Recepção</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Será realizado a recepção dos inscritos no evento</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/2.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>9:00</h4>
+                                    <h4 class="subheading">Boas-vindas</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Explicação do conceito da Fábrica de Aplicativos!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/3.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>9:30</h4>
+                                    <h4 class="subheading">Circuito de Palestras Técnicas</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Simultaneamente no Memorial, Professor Antonio Andrade e aluno Leonardo Guimarães realizarão
+                                        apresentações nos laboratórios 1 e 2</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/iot.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>10:00</h4>
+                                    <h4 class="subheading">Desenvolvimento em Linux Embarcados para dispositivos de IOT - Fernando Luiz Cola</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">No laboratório 1 Fernando Luiz Cola sobre Desenvolvimento em Linux Embarcados para dispositivos
+                                        de IOT</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/bi.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>10:00</h4>
+                                    <h4 class="subheading">BI e Data Analytics - Nilton</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">No laboratório 2 Nilton estará palestrando sobre BI e Data Analytics</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/digital.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>10:30</h4>
+                                    <h4 class="subheading">Marketing Digital -Thiago</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">No laboratório 2 Thiago estará palestrando sobre Marketing Digital</p>
+                                </div>
+                            </div>
+                        </li> -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/4.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>11:00</h4>
+                                    <h4 class="subheading">Projetos</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Apresentação dos projetos fábricas e convidados, no formato de mini feira!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-heading">
+                            <div class="timeline-image">
+                                <h4>Não<br>fique de<br>Fora!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" style="margin-top:50px;" id="timeLineVP">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/1.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>8:00</h4>
+                                    <h4 class="subheading">Recepção</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Será realizado a recepção dos inscritos no evento</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/2.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>9:00</h4>
+                                    <h4 class="subheading">Boas-vindas</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Explicação do conceito da Fábrica de Aplicativos!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/3.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>9:30</h4>
+                                    <h4 class="subheading">Circuito de Palestras Técnicas</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Simultaneamente na Vila Prudente, Professor Daniel Ferreira e Professora Debora Canne
+                                        realizarão apresentações nos laboratórios 1 e 2</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/teste.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>10:00</h4>
+                                    <h4 class="subheading">Teste de Software - André Rodrigues</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">No laboratório 1 André Rodrigues estará palestrando sobre Teste de Software</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/femme.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>10:00</h4>
+                                    <h4 class="subheading">Femme IT - Vanessa Silvestre</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">No laboratório 2 Vanessa Silvestre estará palestrando sobre Femme IT</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/devOps.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>10:30</h4>
+                                    <h4 class="subheading">Dev Ops - Marco Bassi</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">No laboratório 1 Marco Bassi estará palestrando sobre Dev Ops</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/internetCoisas.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>10:30</h4>
+                                    <h4 class="subheading">IOT Internet das Coisas - Tatiani Silva</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">No laboratório 2 Tatiani Silva estará palestrando sobre Internet das Coisas</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/4.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>11:00</h4>
+                                    <h4 class="subheading">Projetos</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Apresentação dos projetos fábricas e convidados, no formato de mini feira!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Não
+                                    <br>fique de<br>Fora!
+                                </h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" style="margin-top:50px;" id="timeLineSantoAmaro">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/1.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>8:00</h4>
+                                    <h4 class="subheading">Recepção</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Será realizado a recepção dos inscritos no evento</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/2.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>9:00</h4>
+                                    <h4 class="subheading">Boas-vindas</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Explicação do conceito da Fábrica de Aplicativos!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/3.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>9:30</h4>
+                                    <h4 class="subheading">Circuito de Palestras Técnicas</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Simultaneamente em Santo Amaro, Professor Gabriel Baptista e Professor João Souza realizarão
+                                        apresentações nos laboratórios 1 e 2</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/itil.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>10:00</h4>
+                                    <h4 class="subheading">ITIL - Fernanda Justino</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">No laboratório 1 Fernanda Justino estará palestrando sobre ITIL</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/Inovacao.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>10:00</h4>
+                                    <h4 class="subheading">Inovação - Cristiano Heringer</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">No laboratório 2 Cristiano Heringer estará palestrando sobre Inovação</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/qa.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>10:30</h4>
+                                    <h4 class="subheading">QA - walter Melo</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">No laboratório 2 Walter Melo estará palestrando sobre QA</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-image">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="images/4.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>11:00</h4>
+                                    <h4 class="subheading">Projetos</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Apresentação dos projetos fábricas e convidados, no formato de mini feira!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Não
+                                    <br>fique de<br>Fora!
+                                </h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Palestrantes</h2>
+                    <h3 class="section-subheading text-muted">Pessoas que fazem o evento INCRÍVEL.</h3>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="images/AndréRodrigues.jpg" alt="">
+                        <h4>André Rodrigues</h4>
+                        <p class="text-muted">Coordenador de Testes e Requisitos | Procondutor</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/andr%C3%A9-vin%C3%ADcius-diegues-rodrigues-64b6697a/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="images/TiagoSouza.jpg" alt="">
+                        <h4>Tiago Souza</h4>
+                        <p class="text-muted">Diretor de Tecnologia</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/tiago-souza-3b34b224/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="images/CristianoHeringer.jpg" alt="">
+                        <h4>Cristiano Heringer</h4>
+                        <p class="text-muted">Account Delivery Manager</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/chheringer/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="images/FernandaJustino.jpg" alt="">
+                        <h4>Fernanda Justino</h4>
+                        <p class="text-muted">Coordenadora de Projetos de TI com ênfase em Negócio</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/fernandavj/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="images/FernandoLuizCola.jpg" alt="">
+                        <h4>Fernando Luiz Cola</h4>
+                        <p class="text-muted">Sales Engineer na Toradex</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/ferlzc/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+               
+                 <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="images/MarcoBassi.jpg" alt="">
+                        <h4>Marco (Aurelio) Bassi</h4>
+                        <p class="text-muted">IT - Sales Manager Brazil - HDI</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/bassimarco/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="images/NiltonKazuyukiUeda.jpg" alt="">
+                        <h4>Nilton Kazuyuki Ueda</h4>
+                        <p class="text-muted">Business Intelligence and Data Analytics Consultant</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/niltonkazuyukiueda/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="images/tatiane.jpg" alt="">
+                        <h4>Tatiani Silva</h4>
+                        <p class="text-muted">Estagiária de sistemas da informação - T-Systems do Brasil</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/tatianisilva/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                 <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="images/Vanessa.jpg" alt="">
+                        <h4>Vanessa Silvestre</h4>
+                        <p class="text-muted">Processos e Governança TI - FemmeIT</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/vanessaasilvestreiti/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+             
+            </div>
+            <div class="row">
+
+                  <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="images/WalterMelo.png" alt="">
+                        <h4>Walter Melo</h4>
+                        <p class="text-muted">Test Manager and Software Quality Assurance Strategist at F I S GLOBAL (Fidelity)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/waltermelo/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Inscreva-se</h2>
+                    <h3 class="section-subheading text-muted">Vagas limitadas.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA87oikKmflXafLkTu3l2VCmDz7lGGjmVdH8L6ojBZDHwC8A/viewform" id="sendMessageButton"
+                        class="btn btn-primary btn-xl text-uppercase" target="_blank">Inscreva-se</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="copyright">Fábrica de Aplicativos - Universidade Nove de Julho - UNINOVE</span>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/fabricaappu9/">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/agency.min.js"></script>
+    <script src="js/fabAppUni9.js"></script>
+</body>
+
+</html>
